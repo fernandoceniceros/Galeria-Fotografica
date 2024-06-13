@@ -1,0 +1,63 @@
+<style>
+        @font-face {
+            font-family: 'Century Gothic';
+            src: local('Century Gothic'), local('Garamond'),
+            url(https://fonts.cdnfonts.com/s/13018/CenturyGothic.woff) format('woff');
+        }
+        body {
+            font-family: 'Century Gothic', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+        header, footer {
+            background-color: #26261d;
+            color: #fff;
+            padding: 1rem 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        main {
+            padding: 2rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        h2 {
+            font-size: 2rem;
+            font-weight: normal;
+            margin-bottom: 1rem;
+        }
+        p {
+            font-size: 1.2rem;
+            font-weight: normal;
+            margin-bottom: 1rem;
+        }
+        .error {
+            padding: 2rem;
+            color: #333;
+        }
+        form {
+            display: inline-block;
+            text-align: left;
+        }
+        label, input, textarea {
+            display: block;
+            margin: 0.5rem 0;
+        }
+    </style>
